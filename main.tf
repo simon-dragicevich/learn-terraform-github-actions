@@ -12,17 +12,17 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "simon-dragicevich"
 
     workspaces {
-      name = "REPLACE_ME"
+      name = "acg-api-workflow-demo"
     }
   }
 }
 
 
 provider "aws" {
-  region = "us-east-1"
+  region = "ap-southeast-2"
 }
 
 
